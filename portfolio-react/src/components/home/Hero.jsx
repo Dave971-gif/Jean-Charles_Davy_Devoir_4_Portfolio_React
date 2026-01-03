@@ -6,7 +6,7 @@ function Hero() {
         <h1>Bonjour, je suis John Doe</h1>
         <h2>Développeur Web full stack</h2>
 
-        <button type="button" className="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <button type="button" className="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#JohnDoeModal">
           En savoir plus
         </button>
       </div>

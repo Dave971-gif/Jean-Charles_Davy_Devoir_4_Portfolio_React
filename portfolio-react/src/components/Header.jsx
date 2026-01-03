@@ -1,36 +1,44 @@
 import { NavLink } from "react-router-dom";
+import { useState } from "react";
 
 function Header() {
+  const [open, setOpen] = useState(false);
+
+  const toggleNavbar = () => setOpen(!open);
+  const closeNavbar = () => setOpen(false);
+
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
         <NavLink className="navbar-brand" to="/">JOHN DOE</NavLink>
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button className="navbar-toggler" type="button" onClick={toggleNavbar}>
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div className="collapse navbar-collapse" id="navbarNav">
+        <div className={`collapse navbar-collapse ${open ? "show" : ""}`}>
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <NavLink to="/" className={({ isActive, isPending }) => "nav-link" + (isPending ? " pending" : isActive ? " active" : "")}>HOME</NavLink>
+              <NavLink to="/" className={({ isActive, isPending }) => "nav-link" + (isPending ? " pending" : isActive ? " active" : "")} onClick={closeNavbar}>
+              HOME
+              </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/services" className={({ isActive, isPending }) => "nav-link" + (isPending ? " pending" : isActive ? " active" : "")}>
+              <NavLink to="/services" className={({ isActive, isPending }) => "nav-link" + (isPending ? " pending" : isActive ? " active" : "")} onClick={closeNavbar}>
               SERVICES
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/portfolio" className={({ isActive, isPending }) => "nav-link" + (isPending ? " pending" : isActive ? " active" : "")}>
+              <NavLink to="/portfolio" className={({ isActive, isPending }) => "nav-link" + (isPending ? " pending" : isActive ? " active" : "")} onClick={closeNavbar}>
               PORTFOLIO
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/contact" className={({ isActive, isPending }) => "nav-link" + (isPending ? " pending" : isActive ? " active" : "")}>
+              <NavLink to="/contact" className={({ isActive, isPending }) => "nav-link" + (isPending ? " pending" : isActive ? " active" : "")} onClick={closeNavbar}>
               CONTACT
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/legal" className={({ isActive, isPending }) => "nav-link" + (isPending ? " pending" : isActive ? " active" : "")}>
+              <NavLink to="/legal" className={({ isActive, isPending }) => "nav-link" + (isPending ? " pending" : isActive ? " active" : "")} onClick={closeNavbar}>
               MENTION LEGALES
               </NavLink>
             </li>

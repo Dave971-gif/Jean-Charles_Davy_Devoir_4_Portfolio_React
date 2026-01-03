@@ -1,0 +1,8 @@
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, strong {
+  font-weight: 600;
+}

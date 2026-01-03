@@ -1,0 +1,106 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url('../images/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+
+  max-height: 100vh;
+  height: 100vh;
+}
+
+.hero-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  max-height: 100vh;
+  background-color: rgba(255, 255, 255, 0.2); /* Overlay with 20% opacity */
+}
+
+.hero h1{
+  font-size: 4rem;
+  gap: 3px;
+}
+
+.hero h2{
+  font-size: 3rem;
+  gap: 3px;
+}
+
+@media (max-width: 500px) {
+  .hero-content h1 {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero-content h2 {
+    font-size: 1em;
+  }
+}
+
+.btn {
+  position: relative;
+  background-color: red;
+  border: none;
+}
+
+/* MODAL CSS */
+
+.border-down {
+  border-bottom: 1px solid #adb5bd92;
+}
+
+.modal-footer{
+  border-top: 1px solid #adb5bd92;
+}
+
+.btn-close {
+  filter: invert(100%);
+}
+
+.btn-secondary {
+  background-color: #adb5bd92;
+}
+
+.modal-dialog {
+  max-width: 800px;
+}
+
+@media (max-width: 992px) {
+  .modal-dialog {
+    max-width: 90%;
+  }
+}
+
+
+/* SECTION CSS */
+
+.aboutskills {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+.about h2, .skills h2 {
+  padding-bottom: 10px;
+  border-bottom: 3px solid #0d6efd;
+}
+
+.skills p {
+  margin-bottom: 5px;
+}
+
+/* Progress bars Bootstrap */
+.progress-bar.bg-danger { width: 90%; }
+.progress-bar.bg-info    { width: 80%; }
+.progress-bar.bg-warning { width: 70%; }
+.progress-bar.bg-success  { width: 60%; }
+.progress-bar.bg-primary { width: 50%; }
+
+.progress {
+  height: 20px;
+  border-radius: 10px;
+}
