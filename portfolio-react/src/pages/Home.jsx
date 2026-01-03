@@ -1,9 +1,23 @@
+import Header from '../components/Header';
+import Hero from '../components/home/Hero';
+import AboutSkills from '../components/home/AboutSkills';
+import Modal from '../components/home/Modal';
+import Footer from '../components/Footer';
+import "../assets/styles/home.css";
+import "../assets/styles/headerfooter.css";
+
+
 function Home() {
   return (
-    <div>
-        <h1>HOME FONCTIONNE</h1>
-        <p>Ma page Home</p>
-    </div>
+    <>
+      <div className='home-page'>
+        <Header />
+        <Hero />
+        <AboutSkills />
+        <Modal />
+        <Footer />
+      </div>
+    </>
   );
 }
 

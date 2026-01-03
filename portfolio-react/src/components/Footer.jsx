@@ -2,7 +2,7 @@ import {Link} from 'react-router-dom';
 
 function Footer() {
   return (
-    <section className="footer d-flex container-fluid justify-content-around align-items-start bg-dark text-white py-5">
+    <section className="footer d-flex container-fluid flex-column flex-lg-row justify-content-around align-items-start bg-dark text-white p-5 gap-5">
       <article className="article1 d-flex flex-column">
         <h3>John Doe</h3>
         <a href="https://maps.app.goo.gl/ZE4baGW2oziqhfAD9">60 rue Laure Diebold <br />
@@ -10,9 +10,9 @@ function Footer() {
         <a href="tel:10 20 30 40 50">10 20 30 40 50</a>
         <a href="mailto:johndoe@gmail.com">johndoe@gmail.com</a>
         <div className="d-flex gap-3 fs-4 mt-3">
-          <i class="bi bi-github" href="icons/github.svg"></i>
-          <i class="bi bi-twitter" href="icons/twitter.svg"></i>
-          <i class="bi bi-linkedin" href="icons/linkedin.svg"></i>
+          <a href="https://github.com" target="_blank"><i className="bi bi-github bi-links"></i></a>
+          <a href="https://twitter.com" target="_blank"><i className="bi bi-twitter bi-links"></i></a>
+          <a href="https://linkedin.com" target="_blank"><i className="bi bi-linkedin bi-links"></i></a>
         </div>
       </article>
       <article>

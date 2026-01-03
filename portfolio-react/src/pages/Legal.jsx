@@ -1,9 +1,14 @@
+import { Helmet } from "react-helmet-async";
+
 function Legal() {
   return (
-    <div>
-      <h1>Legal</h1>
-      <p>Page legal</p>
-    </div>
+    <>
+      <Helmet>
+        <meta name="robots" content="noindex" />
+      </Helmet>
+
+      <h1>Mentions légales</h1>
+    </>
   );
 }
 

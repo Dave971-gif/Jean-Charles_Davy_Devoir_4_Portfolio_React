@@ -1,0 +1,25 @@
+/* Header CSS */
+
+.nav-link.active {
+  text-decoration: underline;    
+}
+
+
+/* Footer CSS */
+
+.footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.bi-links {
+  color: #adb5bd;
+}
+
+.bi-links:hover {
+  color: #fff";
+}
