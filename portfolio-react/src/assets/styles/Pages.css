@@ -2,3 +2,9 @@
     width: 30%;
     border: 4px solid #0d6efd;
 }
+
+@media (min-width: 2560px) {
+    .title-large {
+        font-size: xx-large;
+    }
+}
