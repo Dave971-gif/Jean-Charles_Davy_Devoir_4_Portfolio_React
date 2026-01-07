@@ -8,9 +8,9 @@ function Header() {
   const closeNavbar = () => setOpen(false);
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="header navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
-        <NavLink className="navbar-brand" to="/">JOHN DOE</NavLink>
+        <NavLink className="navbar-brand brand" to="/">JOHN DOE</NavLink>
         <button className="navbar-toggler" type="button" onClick={toggleNavbar}>
           <span className="navbar-toggler-icon"></span>
         </button>
