@@ -4,6 +4,15 @@
   text-decoration: underline;    
 }
 
+@media (min-width: 2560px) {
+  .header, .footer, .brand, .foot-subtitle {
+      font-size: xx-large;
+  }
+
+  .foot-subtitle {
+    font-weight: bold;
+  }
+}
 
 /* Footer CSS */
 
@@ -21,5 +30,5 @@
 }
 
 .bi-links:hover {
-  color: #fff";
+  color: #fff;
 }

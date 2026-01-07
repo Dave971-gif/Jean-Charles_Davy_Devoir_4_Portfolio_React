@@ -1,8 +1,10 @@
 import Header from '../components/Header';
+import Footer from '../components/Footer';
+
 import Hero from '../components/home/Hero';
 import AboutSkills from '../components/home/AboutSkills';
 import Modal from '../components/home/Modal';
-import Footer from '../components/Footer';
+
 import "../assets/styles/home.css";
 import "../assets/styles/headerfooter.css";
 

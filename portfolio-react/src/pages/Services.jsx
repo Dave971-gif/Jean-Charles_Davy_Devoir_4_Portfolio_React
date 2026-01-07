@@ -1,9 +1,12 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Banner from "../components/Banner";
+
 import Offres from "../components/services/Offres";
 import OffreTitle from "../components/services/OffreTitle";
-import Banner from "../components/services/Banner";
-import "../assets/styles/services.css";
+import "../assets/styles/servicesportfolio.css";
+import "../assets/styles/pages.css";
+
 
 function Services() {
   return (

@@ -1,0 +1,60 @@
+/* Services CSS */
+
+.banner-img {
+    width: 100%;
+}
+
+.offers {
+    border: 2px solid #adb5bd;
+    border-radius: 3px;
+    height: 380px;
+    width: 400px;
+}
+
+.bi-offers {
+    color: #0d6efd;
+}
+
+
+/* Portfolio CSS */ 
+
+.portfolio-btn {
+    background-color: #0d6efd;
+}
+
+.portfolio-box {
+    border: 2px solid #d0d0d0;
+    border-radius: 8px;
+    max-width: 450px;
+    max-height: 480px;
+    overflow: hidden;
+}
+
+.portfolio-box img {
+    height: 270px;
+    width: 450px;
+}
+
+.realized {
+    background-color: #f9f9f9;
+    border-top: 2px solid #d0d0d0;
+}
+
+@media (max-width: 425px) {
+    .portfolio-box {
+        max-height: none;
+    }
+}
+
+@media (min-width: 2560px) {
+    .portfolio-box, .portfolio-btn, .firstdiv {
+        font-size: xx-large;
+        max-height: 1100px;
+        max-width: 800px;
+    }
+
+    .portfolio-box img {
+        width: 800px;
+        height: 600px;
+    }
+}
