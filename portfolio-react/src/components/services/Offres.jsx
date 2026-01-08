@@ -10,6 +10,7 @@ function Offres() {
               <p>L'UX Design est une discipline qui consiste à concevoir des produits (sites web, applications mobiles, logiciels, objets connectés, etc.) en plaçant l'utilisateur au centre des préoccupations. L'objectif est de rendre l'expérience utilisateur la plus fluide et agréable possible.</p>
             </div>
           </div>
+
           <div className="offers offers-large">
             <div className="justify-content-center align-items-center m-5">
               <i className="bi bi-code-slash fs-1 bi-offers"></i>
@@ -19,6 +20,7 @@ function Offres() {
               <p>Le développement web consiste à créer des sites web en utilisant des langages de programmation (HTML, CSS, JavaScript, PHP, Python, etc.) et des frameworks (Bootstrap, React, Angular, etc.)</p>
             </div>
           </div>
+          
           <div className="offers offers-large">
             <div className="justify-content-center align-items-center m-5">
               <i className="bi bi-search fs-1 bi-offers"></i>

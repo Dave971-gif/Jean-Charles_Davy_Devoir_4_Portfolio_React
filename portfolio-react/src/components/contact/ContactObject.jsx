@@ -14,14 +14,14 @@ function ContactObject() {
                             <label htmlFor="mail"></label>
                             <input type="email" id="mail" name="mail" placeholder="Votre adresse email" required />
 
-                            <label htmlFor="name"></label>
-                            <input type="text" id="name" name="name" placeholder="Votre numéro de téléphone" required />
+                            <label htmlFor="tel"></label>
+                            <input type="text" id="tel" name="tel" placeholder="Votre numéro de téléphone" required />
 
                             <label htmlFor="subject"></label>
                             <input type="text" id="subject" name="subject" placeholder="Sujet" required />
 
                             <label htmlFor="message"></label>
-                            <textarea id="message" name="name" placeholder="Votre message" required></textarea>
+                            <textarea id="message" name="message" placeholder="Votre message" required></textarea>
                             
                             <div className="btn-box d-flex justify-content-center py-2 px-5">
                                 <label htmlFor="sub"></label>
