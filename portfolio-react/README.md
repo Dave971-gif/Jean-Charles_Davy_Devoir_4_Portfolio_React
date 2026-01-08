@@ -1,16 +1,16 @@
-# React + Vite
+///...PORTFOLIO-REACT...\\\
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+|--INFO--|
 
-Currently, two official plugins are available:
+This project is a Web Portfolio done with React + Vite, in JSX and CSS format.
+Bootstrap imported, with CSS files, and HelmetProvider to modify the Head in other JSX files.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+|--PREREQUISITES AND LAUNCH--|
 
-## React Compiler
+To Open the folder, you will need VSCODES. Then you Open the terminal so you can type this in : "cd .\portfolio-react" then "npm run dev".
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+|--PLUS--|
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project homework is done in some weeks, was truly long, and hard to do, for a beginner in web development. But it was really pleasant to do it, and I have learned so much things in this domain. 
+So I used a lot the IA to help me understand things that I haven't check until this moment. 
+I can't say now I will be a pro in development without difficulties, but I always do what I gotta do, and I do it with a lot of heart.

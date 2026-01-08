@@ -37,12 +37,12 @@ function Footer() {
       </article>
       <article className="d-flex flex-column">
         <h3 className="foot-subtitle">Mes dernières réalisations</h3>
-        <a href="/" target="_blank" rel="noopener noreferrer">Fresh Food</a>
-        <a href="/" target="_blank" rel="noopener noreferrer">Restaurant Akira</a>
-        <a href="/" target="_blank" rel="noopener noreferrer">Espace bien-être</a>
-        <a href="/" target="_blank" rel="noopener noreferrer">SEO</a>
-        <a href="/" target="_blank" rel="noopener noreferrer">Création d'une API</a>
-        <a href="/" target="_blank" rel="noopener noreferrer">Maquette d'un site</a>
+        <a href="/portfolio" target="_blank" rel="noopener noreferrer">Fresh Food</a>
+        <a href="/portfolio" target="_blank" rel="noopener noreferrer">Restaurant Akira</a>
+        <a href="/portfolio" target="_blank" rel="noopener noreferrer">Espace bien-être</a>
+        <a href="/portfolio" target="_blank" rel="noopener noreferrer">SEO</a>
+        <a href="/portfolio" target="_blank" rel="noopener noreferrer">Création d'une API</a>
+        <a href="/portfolio" target="_blank" rel="noopener noreferrer">Maquette d'un site</a>
       </article>
     </section>
   );
